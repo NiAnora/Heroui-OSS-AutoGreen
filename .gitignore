@@ -2,3 +2,14 @@
 .DS_Store
 *bak
 .history
+
+# 运行时数据（含 token 的配置、本地克隆的仓库）
+autogreen.json
+repos/
+repo/
+
+# 编译产物
+autogreen
+autogreen.exe
+autogreen-*
+AutoGreen.exe
