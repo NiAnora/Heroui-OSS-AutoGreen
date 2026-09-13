@@ -1,4 +1,4 @@
-# AutoGreen
+# AutoGreen&Heroui-OSS
 
 自动保持 GitHub 贡献图常绿。Go 单文件后端 + React 管理界面，无需 GitHub Actions，在你自己的服务器上常驻运行。
 
