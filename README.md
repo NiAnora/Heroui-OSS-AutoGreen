@@ -1,8 +1,8 @@
 # AutoGreen&Heroui-OSS
 
-自动保持 GitHub 贡献图常绿。Go 单文件后端 + React 管理界面，无需 GitHub Actions，在你自己的服务器上常驻运行。
+自动保持 GitHub 贡献图常绿(作用:未知????)。Go 单文件后端 + React 管理界面，无需 GitHub Actions，在你自己的服务器上常驻运行。
 
-核心代码来自 [justjavac/auto-green](https://github.com/justjavac/auto-green)，本项目把justjavac的 GitHub Actions 定时空提交方案改写为独立的 Go 服务，并加入了真随机调度、多仓库管理、Web 界面与登录门禁。
+核心代码来自 [XiaoCaoAskedForHelp/AutoGreen](https://github.com/XiaoCaoAskedForHelp/AutoGreen)，本项目把XiaoCaoAskedForHelp的 GitHub Actions 定时空提交方案改写为独立的 Go 服务，并加入了真随机调度、多仓库管理、Web 界面与登录门禁。
 
 ## 特性
 
@@ -266,7 +266,7 @@ mux.HandleFunc("POST /api/repos/{id}/commit", srv.triggerCommit)
 
 ## 致谢
 
-- [justjavac/auto-green](https://github.com/justjavac/auto-green) —— 最初的 GitHub Actions 定时空提交方案，本项目的核心思路与调度模型均源于此
+- [XiaoCaoAskedForHelp/AutoGreen](https://github.com/XiaoCaoAskedForHelp/AutoGreen) —— 最初的 GitHub Actions 定时空提交方案，本项目的核心思路与调度模型均源于此
 - [heroui-oss](https://github.com/heroui-inc/heroui) —— 提供 HeroUI React 组件库（Apache-2.0），本项目的前端界面基于其构建
 
 ## License
